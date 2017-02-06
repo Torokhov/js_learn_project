@@ -16,4 +16,10 @@ function range(a, b, step) {
   };
   
   return arr;
+};
+
+function sum(arr) {
+  return arr.reduce(function(acc, value) {
+    return acc+=value;                    
+  }, 0);
 }
