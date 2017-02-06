@@ -11,3 +11,9 @@ describe("range", function() {
     assert.deepEqual(range(5, 2, -1), [5, 4, 3, 2]);
   });
 });
+
+describe("sum", function() {
+  it("возвращает сумму диапазона", function() {
+    assert.equal(sum(range(1, 5)), 15);
+  });
+});
